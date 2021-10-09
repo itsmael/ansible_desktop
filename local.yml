@@ -9,7 +9,6 @@
       name:
         - htop
         - tmux
-        - zsh
         - neofetch
         - telegram-desktop
   - name: copy wallpaper file
