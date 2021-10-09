@@ -9,6 +9,7 @@
       name:
         - htop
         - tmux
+        - zsh
   - name: copy wallpaper file
     copy:
       src: files/wallpaper.png
@@ -20,7 +21,7 @@
     become_user: itsmael
     dconf:
       key: "/org/gnome/desktop/background/picture-uri"
-      value: "'file:///usr/share/backgrounds/ansible-wallpaper.png'" 
+      value: "'file:///usr/share/backgrounds/ansible-wallpaper.png'"
   - name: set wallpaper position
     become_user: itsmael
     dconf:
