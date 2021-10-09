@@ -10,6 +10,8 @@
         - htop
         - tmux
         - zsh
+        - neofetch
+        - telegram-desktop
   - name: copy wallpaper file
     copy:
       src: files/wallpaper.png
