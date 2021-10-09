@@ -20,9 +20,9 @@
     become_user: itsmael
     dconf:
       key: "/org/gnome/desktop/background/picture-uri"
-      value: "'file:///usr/share/backgrounnds/ansible-wallpaper.png'" 
+      value: "'file:///usr/share/backgrounds/ansible-wallpaper.png'" 
   - name: set wallpaper position
     become_user: itsmael
     dconf:
-      key: "/org/gnome/desktop/backgroun/pictures-options"
+      key: "/org/gnome/desktop/background/pictures-options"
       value: "'zoom'"
